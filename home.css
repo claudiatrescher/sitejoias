@@ -1,0 +1,89 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  a{
+    font-weight: 500;
+  }
+
+  .display-4{
+    font-weight: 800;
+  }
+  
+  .lead{
+    font-weight: 700;
+  }
+
+  .btn{
+    font-weight: 700;
+  }
+
+  h2{
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  p{
+    font-weight: 500;
+  }
+
+  .jumbotron-bg {
+          background-image: url('img/foto\ capa.png');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          color: #fff;
+          height: 600px;
+          display: flex;
+          align-items: flex-end;
+  }
+
+ 
+
+  .bi{
+    float: left;
+    margin-right: 10px;
+  }
+  .col-md-4 .feature{
+    padding: 20px;
+    margin-right: 20px;
+
+  }
+
+  #colecao{
+    background: rgb(255,154,111);
+    background: radial-gradient(circle, rgba(255,154,111,1) 0%, rgba(203,145,109,1) 100%);
+  }
+  #colecao img{
+    border-radius: 30px;
+    
+  }
+
+  #colecao h1{
+    font-weight: 900;
+    font-size: 50px;
+  }
+
+  #colecao h3{
+    font-size: 30px;
+  }
+
+#beneficios .card{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#beneficios .card:hover{
+    background: rgb(255,154,111);
+    background: radial-gradient(circle, rgba(255,154,111,1) 0%, rgba(203,145,109,1) 100%);
+    color: white;
+
+}
+
+#beneficios .card:hover .per1{
+    color: white;
+}
+
+.custom-color{
+    color: white;
+}
